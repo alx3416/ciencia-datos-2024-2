@@ -1,3 +1,19 @@
 [submodule "Equipo1"]
 	path = Equipo1
 	url = https://github.com/YaelHuerta1/CienciasDatos
+
+[submodule "Equipo2"]
+	path = Equipo2
+	url = https://github.com/DNovaO/DataScience
+
+[submodule "Equipo3"]
+	path = Equipo3
+	url = https://github.com/Rubensotelo03/Ciencia-24
+
+[submodule "Equipo4"]
+	path = Equipo4
+	url = https://github.com/ChrisN555/Ciencia-de-datos
+
+[submodule "Equipo5"]
+	path = Equipo5
+	url = https://github.com/lalo1905/CienciadeDatos_CIAL
