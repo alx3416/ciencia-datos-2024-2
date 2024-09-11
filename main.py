@@ -1,4 +1,8 @@
-from utils.imports import read_diabetes
+import utils.imports as imp
 
-data = read_diabetes("data/diabetes.tab.txt")
+df = imp.Diabetes()
+df.read_data(path="data/diabetes.tab.txt")
+
+print(df.rows)
+print(df.columns)
 print("ok")
