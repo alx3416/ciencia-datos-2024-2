@@ -7,7 +7,7 @@ class Dataset:
         self.columns = []
         self.rows = []
 
-    def read_data(path):
+    def read_data(self, path):
         return pd.read_csv(path)
 
 
@@ -17,7 +17,7 @@ class Diabetes(Dataset):
         self.columns = 11
         self.rows = 442
 
-    def read_data(path):
+    def read_data(self, path):
         return pd.read_csv(path, sep="/t")
 
 df = Diabetes("data/diabetes.tab.txt")
